@@ -7,4 +7,240 @@
   --secundario: #523a34;
 }
 
+/* GLOBALES */
+html {
+  font-size: 62.5%;
+  box-sizing: border-box; /* Hack para box model */
+}
+
+*, *::before, *::after {
+  box-sizing: none; /* Hack para box model */
+}
+
+body {
+  font-size: 16px; /* 1rem = 10px */
+  font-family: "Raleway", sans-serif;
+  color: var(--negro);
+  background-color: var(--primario);
+}
+
+body {
+  width: 90%;
+  margin: auto;
+}
+
+.container {
+  padding: 0;
+  margin: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
+nav {
+  /* position: absolute; */
+  padding: 0;
+  margin: 0;
+  right: 0;
+  bottom: 0;
+}
+
+nav ul {
+  margin: 0;
+  bottom: 0;
+  /* vertical-align: bottom; */
+}
+
+.navegacionPrincipal li {
+  list-style-type: none;
+  text-align: center;
+  font-size: 0;
+}
+
+#noticias {
+  margin-top: 15px;
+  margin: auto;
+}
+
+.noticia {
+  min-width: 300px;
+  height: 80vh;
+  padding: 1px;
+  overflow: auto;
+}
+
+.noticia img {
+  width: 22%;
+  min-width: 350px;
+}
+
+.noticia a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 800;
+  /* margin:10px; */
+}
+
+.sombra_texto {
+  text-shadow: #333333 5px 5px 20px;
+}
+
+.plana img {
+  width: 90%;
+  margin: 5%;
+}
+
+.plana a {
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 800;
+  margin: 10px;
+}
+
+.navegacionPrincipal {
+  align-items: rigth;
+}
+
+.navegacionPrincipal > ul li {
+  background-color: rgba(151, 121, 121, 0.65);
+  font-weight: 900;
+  display: inline-block;
+  margin: 90px 0 0 0;
+  padding: 0 20px;
+  border-bottom: 5px solid black;
+  border-top-left-radius: 15px;
+}
+
+.navegacionPrincipal li a {
+  text-decoration: none;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+  color: var(--negro);
+}
+
+.navegacionPrincipal ul li:hover {
+  background: #333333;
+  color: white;
+  box-shadow: #ffffff;
+}
+
+.navegacionPrincipal ul li a:hover {
+  color: var(--blanco);
+}
+
+.marco_sombra {
+  border: 1px solid black;
+  box-shadow: #523a34 5px 5px 25px;
+}
+
+#tituloportada {
+  color: white;
+  width: 39vh;
+  padding: 15px;
+}
+
+.navegacionPrincipal li ul {
+  width: 0;
+  overflow: hidden;
+}
+
+#form-container {
+  width: 35%;
+  margin-left: 37%;
+  margin-right: 37%;
+}
+
+/* *{border: 1px gray solid;} */
+#form_contacto input {
+  width: 60%;
+}
+
+#form_contacto textarea {
+  width: 60%;
+}
+
+#form_contacto input and {
+  width: auto;
+  margin: 20px;
+}
+
+#whatsapp {
+  width: 100px;
+  position: fixed;
+  top: 80%;
+  right: 20px;
+}
+
+.navegacionPrincipal li:hover li a {
+  font-size: 1.5rem;
+  line-height: 1.7rem;
+  border-top: 1px solid #e5e5e5;
+  background-color: hsla(12, 22%, 26%, 0.46);
+}
+
+.navegacionPrincipal li li a:hover {
+  background: hsla(9, 22%, 18%, 0.542);
+}
+
+/* CONTENIDO PRINCIPAL */
+.main {
+  background-color: --blanco;
+}
+
+article {
+  padding: 15px;
+}
+
+/* HEADER */
+.header h1 {
+  font-weight: lighter;
+}
+
+.header span {
+  font-weight: bold;
+}
+
+header {
+  background-color: rgba(35, 61, 207, 0.961);
+}
+
+/* TIPOGRAFIAS */
+h1 {
+  font-size: 3.8rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+  color: var(--secundario);
+}
+
+h3 {
+  font-size: 1.8rem;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+.footer .redes {
+  text-align: center;
+}
+
+.footer .redes a {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.footer .texto {
+  text-align: center;
+}
+
 /*# sourceMappingURL=style.css.map */

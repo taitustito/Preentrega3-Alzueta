@@ -1,15 +1,6 @@
-// Variables
-$blanco: #ffffff;
-$negro: #333333;
-$primario: #ffffff;
-$secundario: #523a34;
+@import '../scss/variable';
+@import '../scss/global';
+@import '../scss/header';
+@import '../scss/tipografic';
+@import '../scss/footer';
 
-// GLOBALES
-:root {
-  /* Custom properties */
-  /* Paleta de colores */
-  --blanco: #{$blanco};
-  --negro: #{$negro};
-  --primario: #{$primario};
-  --secundario: #{$secundario};
-}

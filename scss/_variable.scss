@@ -1,0 +1,15 @@
+// Variables
+$blanco: #ffffff;
+$negro: #333333;
+$primario: #ffffff;
+$secundario: #523a34;
+
+// GLOBALES
+:root {
+  /* Custom properties */
+  /* Paleta de colores */
+  --blanco: #{$blanco};
+  --negro: #{$negro};
+  --primario: #{$primario};
+  --secundario: #{$secundario};
+}
