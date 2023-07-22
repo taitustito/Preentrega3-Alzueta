@@ -1,0 +1,22 @@
+{
+  "name": "preentrega3alzueta",
+  "version": "1.0.0",
+  "description": "Tercera pre entrega curso desarrollo web en coderHouse",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taitustito/Preentrega3-Alzueta.git"
+  },
+  "author": "José Alzueta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taitustito/Preentrega3-Alzueta/issues"
+  },
+  "homepage": "https://github.com/taitustito/Preentrega3-Alzueta#readme",
+  "dependencies": {
+    "sass": "^1.64.1"
+  }
+}
