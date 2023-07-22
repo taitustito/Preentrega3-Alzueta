@@ -166,7 +166,7 @@ nav ul {
 }
 
 #whatsapp {
-  width: 100px;
+  width: 70px;
   position: fixed;
   top: 80%;
   right: 20px;
@@ -185,7 +185,7 @@ nav ul {
 
 /* CONTENIDO PRINCIPAL */
 .main {
-  background-color: --blanco;
+  background-color: _blanco;
 }
 
 article {
